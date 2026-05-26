@@ -1,4 +1,4 @@
-# Gabrijel Zovkic
+# Hey, I'm Gabrijel
 
 **42 Heilbronn Student** | Embedded Systems Enthusiast | Low-Level Developer
 
