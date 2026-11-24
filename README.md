@@ -32,8 +32,6 @@
 + [  OK  ] starting independence_lab ........ working @ 42 heilbronn
 + [  OK  ] loading llm_from_scratch ......... gpt-2 arch, nearly finished
 + [  OK  ] initializing arduino ............. always tinkering
-- [ WARN ] sleep ............................ module not found
-- [ WARN ] coffee ........................... running low
 ```
 
 ---
