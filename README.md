@@ -1,106 +1,83 @@
-<!-- Animated wave header -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BABC,50:7F00FF,100:FF0080&height=200&section=header&text=Gabrijel%20Zovkic&fontSize=50&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Low-Level%20Developer%20%E2%80%A2%2042%20Heilbronn&descAlignY=58&descSize=18" />
-</p>
+```
+               ,'            ,'
+              °             j'
+            •'             :'
+           d'  ,d$$?:.    d?
+          J' ,$$Z$$Ii:.  ª°
+         d7 j$$Z$$Sii:· d'
+         ?p SS$$$$S?i:·.$'
+          °:?$Z$8S?:'.$'
+        dp, `ª?S?i:',°
+        ?¨ª?,oS%.¨ ·
+     ,gz¬,.j$$$?i:·,iS$jp _
+    •?   ` 7ª?Si:' ¬.   ¨¨`ª?p,¬•·
+   j7  ,p:jb¨47·,j`47'
+  d' .47' ?`¨? d7'  `$:
+ ?  j:'   `  `j?      `jL
+ : :ª'        sL       `?k
+ · :?         `jb       ¨j,_
+   j'           ?k        `ª:,.
+   i             `?.          `.
+   :               :k
+   ·                `°.`
+```
 
-<!-- Typing animation -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=FF0080&center=true&vCenter=true&width=650&lines=Hey%2C+I'm+Gabrijel+%F0%9F%91%8B;C+%2F+C%2B%2B+%E2%80%A2+Embedded+%E2%80%A2+Low-Level;Building+an+LLM+from+scratch+%F0%9F%A7%A0;Almost+done+with+42+Heilbronn+%F0%9F%8E%93" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=gzovkic&label=Profile%20views&color=7F00FF&style=for-the-badge" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=800&color=39FF14&vCenter=true&width=600&lines=%3E+close+to+the+metal;%3E+building+an+LLM+from+scratch;%3E+42+heilbronn+%2F%2F+almost+done;%3E+segfaults+fear+me" />
 
 ---
 
-## 🧑‍💻 `$ cat about_me.c`
+```diff
+@@ booting gzovkic.ko @@
++ [  OK  ] mounting 42_heilbronn ............ final project, almost done
++ [  OK  ] starting independence_lab ........ working @ 42 heilbronn
++ [  OK  ] loading llm_from_scratch ......... gpt-2 arch, nearly finished
++ [  OK  ] initializing arduino ............. always tinkering
+- [ WARN ] sleep ............................ module not found
+- [ WARN ] coffee ........................... running low
+```
 
+---
 ```c
 #include "gabrijel.h"
 
 const t_dev gabrijel = {
-    .school     = "42 Heilbronn",                      // final project in progress 🎓
+    .school     = "42 Heilbronn",                      // final project in progress
     .job        = "Independence Lab @ 42 Heilbronn",
     .main_langs = {"C", "C++"},
     .learning   = {"Python", "Machine Learning"},
-    .side_quest = "GPT-2 style LLM from scratch",       // almost done 🧠
+    .side_quest = "GPT-2 style LLM from scratch",       // almost done
     .hobbies    = {"Arduino", "Robotics", "Embedded Systems"},
-    .motto      = "If it works, I want to know why.",
 };
 ```
 
+The LLM is built by following Sebastian Raschka's *Build a Large Language Model (From Scratch)*, from tokenizer to attention to training.
+
 ---
 
-## 🚀 `$ ./current_progress`
+### `$ tree ~/arsenal`
 
-<p align="left">
-  <img src="https://img.shields.io/badge/42_Heilbronn-Almost_Done-00BABC?style=for-the-badge&logo=42&logoColor=white" />
-  <img src="https://img.shields.io/badge/Independence_Lab-Working-7F00FF?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LLM_From_Scratch-Nearly_Finished-FF0080?style=for-the-badge" />
-</p>
-
-```diff
-@@ Progress Report @@
-+ 42 Core Curriculum   [███████████████████░]  almost there
-+ LLM from Scratch     [██████████████████░░]  nearly done
-+ Arduino Projects     [████████░░░░░░░░░░░░]  always tinkering
+```
+arsenal/
+├── languages/
+│   ├── C / C++ ............ weapon of choice
+│   ├── Python ............. basic, leveling up
+│   ├── Shell .............. scripting
+│   └── Arduino ............ hardware hacking
+└── tools/
+    ├── Docker
+    ├── Git
+    ├── Embedded systems
+    └── Microcontrollers
 ```
 
-📖 Building a GPT-2 style model by following Sebastian Raschka's *Build a Large Language Model (From Scratch)*, from tokenizer to attention to training.
-
 ---
 
-## 🛠️ `$ ls ~/tech_stack`
+### `$ ./connect --target gabrijel`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,bash,arduino,docker,git&perline=7" />
-</p>
+```
+[*] establishing connection...
+[*] handshake complete
+[+] channel open: gabrijel.zovkic@gmail.com
+```
 
----
-
-## 💡 `$ grep -r "interests" ~/`
-
-| | |
-|---|---|
-| 🔌 **Embedded Systems** | where hardware meets software |
-| 🤖 **Robotics** | Arduino-based automation and control |
-| ⚙️ **Low-Level Programming** | getting close to the metal |
-| 🧠 **Machine Learning** | understanding LLMs by building one |
-
----
-
-## 📊 `$ git log --stats`
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gzovkic&show_icons=true&theme=radical&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gzovkic&layout=compact&theme=radical&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=gzovkic&theme=radical&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gzovkic&theme=react-dark&hide_border=true&area=true" />
-</p>
-
-<!-- Contribution snake (needs the GitHub Action below) -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/gzovkic/gzovkic/output/github-snake-dark.svg" />
-</p>
-
----
-
-## 📫 `$ ping gabrijel`
-
-<p align="center">
-  <a href="mailto:gabrijel.zovkic@gmail.com">
-    <img src="https://img.shields.io/badge/Email-gabrijel.zovkic%40gmail.com-FF0080?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
-
-<!-- Animated wave footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF0080,50:7F00FF,100:00BABC&height=120&section=footer" />
-</p>
+[gabrijel.zovkic@gmail.com](mailto:gabrijel.zovkic@gmail.com)
